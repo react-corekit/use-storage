@@ -2,7 +2,6 @@
   "name": "@react-corekit/use-storage",
   "version": "1.0.0",
   "description": "Declares “state variables” to store data locally within the user's browser using cookies or localStorage",
-  "main": "dist/index.js",
   "author": "glongh",
   "license": "MIT",
   "repository": {
@@ -11,12 +10,20 @@
   },
   "private": false,
   "peerDependencies": {
-    "react": "^16.8.6"
+    "react": "^16.12.0"
   },
   "directories": {
     "example": "example"
   },
-  "dependencies": {
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "devDependencies": {
+    "react": "^16.12.0",
     "rollup": "^1.31.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
