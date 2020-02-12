@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Declares “state variables” to store data locally within the user's browser using cookies or localStorage",
   "main": "dist/index.js",
-  "repository": "https://github.com/react-corekit/use-storage.git",
-  "author": "glongh <glongh@gmail.com>",
+  "author": "glongh",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-corekit/use-storage.git"
+  },
   "private": false,
   "peerDependencies": {
-    "@react-corekit/use-where": "^1.1.2",
     "react": "^16.8.6"
   },
   "directories": {
